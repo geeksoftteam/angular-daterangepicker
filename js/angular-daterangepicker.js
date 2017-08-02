@@ -1,6 +1,8 @@
 (function() {
   var picker;
 
+  var moment = require('moment');
+
   picker = angular.module('daterangepicker', []);
 
   picker.constant('dateRangePickerConfig', {
